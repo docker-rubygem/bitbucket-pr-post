@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.5
+ENV VERSION=0.0.7
 
 RUN gem install bitbucket-pr-post --version ${VERSION} --no-format-exec
 
